@@ -1,0 +1,16 @@
+server-id: "server1"
+database:
+  type: "mysql"
+  host: "localhost"
+  port: 3306
+  name: "syncguard"
+  username: "root"
+  password: "password"
+redis:
+  enabled: true
+  host: "localhost"
+  port: 6379
+  password: ""
+two-factor-enabled: false
+commands:
+  on-verify: "lp user %player% group add verified"

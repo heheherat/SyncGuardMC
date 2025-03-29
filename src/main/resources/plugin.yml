@@ -1,0 +1,8 @@
+name: SyncGuardMC
+version: 1.0
+main: com.example.syncguard.SyncGuardPlugin
+api-version: 1.13
+commands:
+  verify:
+    description: Verify your Discord account with a code
+    usage: /<command> <code>
